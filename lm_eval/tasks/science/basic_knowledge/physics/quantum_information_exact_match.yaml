@@ -3,13 +3,13 @@ include: "_default_exact_match_yaml"
 process_docs: !function utils.process_quantum_information
 doc_to_text: >
   You are an expert in Quantum Information Theory. Please solve the following question step by step.
-  
+
   Question: {{Question.strip()}}
-  
-  Provide your reasoning first, then conclude with your final answer. 
+
+  Provide your reasoning first, then conclude with your final answer.
   IMPORTANT: You MUST put your final mathematical answer in this exact format: Final Answer: \boxed{your mathematical expression}
   Do not use any other format for your final answer.
-  
+
   Answer:
 task: exact_match_quantum_information
 

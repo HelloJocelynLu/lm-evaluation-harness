@@ -6,12 +6,12 @@ test_split: test
 
 doc_to_text: >
   You are a chemist assistant with expertise in molecular structure elucidation. {{Question}}
-  Requirements:  
-    - Provide the structure in SMILES notation  
-    - The answer should be exact and canonical  
-    - Include only the SMILES string in your answer, wrapped in <SMILES></SMILES> tags  
-  Example answer format:  
-  <SMILES>CCN(CC)CC</SMILES>  
+  Requirements:
+    - Provide the structure in SMILES notation
+    - The answer should be exact and canonical
+    - Include only the SMILES string in your answer, wrapped in <SMILES></SMILES> tags
+  Example answer format:
+  <SMILES>CCN(CC)CC</SMILES>
   Answer:
 doc_to_target: Answer
 task: nmr_structure_elucidation

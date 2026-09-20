@@ -10,7 +10,7 @@ doc_to_text: >
   C: {{Option_C}}
   D: {{Option_D}}
   Answer:
-task: multiple_choice_astrophysics_cosmology 
+task: multiple_choice_astrophysics_cosmology
 
 # >>> provenance metadata (managed by sync_task_metadata.py) >>>
 metadata:

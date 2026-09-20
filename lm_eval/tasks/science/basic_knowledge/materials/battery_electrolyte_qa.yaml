@@ -7,7 +7,7 @@ test_split: test
 process_docs: !function utils.process_battery_electrolyte_qa
 doc_to_text: >
   You are an expert in battery electrolyte chemistry. Use your expert knowledge to answer the multiple choice question below.
-  
+
   Wrap your final answer(s) in <answer>X</answer> tags, where X can be a single letter or comma-separated list of letters.
   For example, if A, B, and C are correct, write: <answer>A,B,C</answer> and if just B is correct, write: <answer>B</answer>.
 

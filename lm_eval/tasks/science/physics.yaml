@@ -17,4 +17,4 @@ task:
   # - multiple_choice_core_knowledge  # excluded: n=7 < 10 (D11)
   - multiple_choice_computational_physics
   - multiple_choice_high_energy_physics
-  - multiple_choice_probability_statistics 
+  - multiple_choice_probability_statistics
