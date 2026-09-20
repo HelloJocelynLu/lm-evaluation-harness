@@ -30,3 +30,21 @@ metric_list:
   - metric: acc
     aggregation: mean
     higher_is_better: true
+
+# >>> provenance metadata (managed by sync_task_metadata.py) >>>
+metadata:
+  version: '0.1'
+  provenance:
+    source_type: public_database
+    source: Drug-like molecules sampled from CycPeptMPDB and ChEMBL; HBD/HBA/MW/logP cross-checked
+      against RDKit.
+    source_refs:
+    - CycPeptMPDB
+    - ChEMBL
+    - RDKit
+    basis: SI biology curation; dataset Reference column (20/20 rows)
+    construction_date: to_confirm
+    dedup: to_confirm
+    overlap_check: to_confirm
+    evaluation_status: evaluated
+# <<< provenance metadata (managed by sync_task_metadata.py) <<<

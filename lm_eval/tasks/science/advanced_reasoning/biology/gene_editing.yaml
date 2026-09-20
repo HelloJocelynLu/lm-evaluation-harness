@@ -24,3 +24,22 @@ doc_to_text: >
   <ANSWER>[single letter: a, b, c, d, or e]</ANSWER>
 doc_to_target: Answer
 task: gene_editing
+
+# >>> provenance metadata (managed by sync_task_metadata.py) >>>
+metadata:
+  version: '0.1'
+  provenance:
+    source_type: expert_authored
+    source: Scenarios inspired by widely used experimental workflows reported in the functional
+      genomics and CRISPR screening literature. The dataset Reference column lists "Genome-Bench",
+      which the SI does not cite.
+    source_refs: []
+    basis: SI biology curation (gene-editing protocol reasoning)
+    construction_date: to_confirm
+    dedup: to_confirm
+    overlap_check: to_confirm
+    evaluation_status: evaluated
+    note: 'Mismatch to resolve: `Reference` holds "Genome-Bench" but the SI describes the
+      items as expert-authored. Confirm whether these items are derived from Genome-Bench
+      and attribute accordingly.'
+# <<< provenance metadata (managed by sync_task_metadata.py) <<<

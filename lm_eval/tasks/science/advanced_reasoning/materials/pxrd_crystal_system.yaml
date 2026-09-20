@@ -1,4 +1,6 @@
 dataset_path: deep-principle/science_materials
+dataset_kwargs:
+  revision: af1c11c8dc0ebbd4b10323a4916e910f1f48a00c
 dataset_name: pxrd-crystal-system-classification
 test_split: test
 
@@ -34,3 +36,22 @@ metric_list:
   - metric: exact_match
     aggregation: mean
     higher_is_better: true
+
+# >>> provenance metadata (managed by sync_task_metadata.py) >>>
+metadata:
+  version: '0.1'
+  provenance:
+    source_type: public_database
+    source: Ionic compounds from the Materials Project and MOFs from CoRE-2019; symmetry from
+      Pymatgen SpacegroupAnalyzer/Spglib and PXRD simulated with Pymatgen XRDCalculator.
+    source_refs:
+    - Materials Project
+    - CoRE-2019
+    - Pymatgen
+    - Spglib
+    basis: SI materials curation (crystal system prediction from PXRD)
+    construction_date: to_confirm
+    dedup: to_confirm
+    overlap_check: to_confirm
+    evaluation_status: evaluated
+# <<< provenance metadata (managed by sync_task_metadata.py) <<<

@@ -9,3 +9,20 @@ doc_to_text: >
   D: {{Option_D}}
   Answer:
 task: science_chem_forward_reaction_prediction
+
+# >>> provenance metadata (managed by sync_task_metadata.py) >>>
+metadata:
+  version: '0.1'
+  provenance:
+    source_type: mixed
+    source: Subset adapted from GPQA; remainder sampled from the USPTO reaction dataset, filtered
+      to single-step transformations and templated into multiple-choice questions.
+    source_refs:
+    - GPQA
+    - USPTO
+    basis: SI chemistry curation; dataset Reference column (27/42 rows list GPQA)
+    construction_date: to_confirm
+    dedup: to_confirm
+    overlap_check: to_confirm
+    evaluation_status: evaluated
+# <<< provenance metadata (managed by sync_task_metadata.py) <<<

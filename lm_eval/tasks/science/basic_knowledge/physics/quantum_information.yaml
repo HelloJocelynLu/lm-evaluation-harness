@@ -11,3 +11,17 @@ doc_to_text: >
   D: {{Option_D}}
   Answer:
 task: multiple_choice_quantum_information
+
+# >>> provenance metadata (managed by sync_task_metadata.py) >>>
+metadata:
+  version: '0.1'
+  provenance:
+    source_type: expert_authored
+    source: Manually curated to reflect reasoning steps in quantum information research.
+    source_refs: []
+    basis: SI physics curation; dataset Reference column holds contributor names only
+    construction_date: to_confirm
+    dedup: to_confirm
+    overlap_check: to_confirm
+    evaluation_status: evaluated
+# <<< provenance metadata (managed by sync_task_metadata.py) <<<

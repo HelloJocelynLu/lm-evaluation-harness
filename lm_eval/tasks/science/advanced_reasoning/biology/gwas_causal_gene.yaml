@@ -18,3 +18,19 @@ doc_to_text: >
   Output Format:
   <ANSWER>[gene symbol from the provided list]</ANSWER>
 task: gwas_causal_gene
+
+# >>> provenance metadata (managed by sync_task_metadata.py) >>>
+metadata:
+  version: '0.1'
+  provenance:
+    source_type: public_database
+    source: GWAS loci and phenotypes curated from the NHGRI-EBI GWAS Catalog; reference genes
+      expert-curated.
+    source_refs:
+    - NHGRI-EBI GWAS Catalog
+    basis: SI biology curation; dataset Reference column (20/20 rows)
+    construction_date: to_confirm
+    dedup: to_confirm
+    overlap_check: to_confirm
+    evaluation_status: evaluated
+# <<< provenance metadata (managed by sync_task_metadata.py) <<<

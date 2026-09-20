@@ -26,3 +26,18 @@ doc_to_text: >
   Output Format:
   <ANSWER>[Single letter: A or B]</ANSWER>
 task: matched_molecular_pair
+
+# >>> provenance metadata (managed by sync_task_metadata.py) >>>
+metadata:
+  version: '0.1'
+  provenance:
+    source_type: public_database
+    source: Property values (LD50 or Vdss) obtained from Therapeutics Data Commons.
+    source_refs:
+    - Therapeutics Data Commons
+    basis: SI biology curation; dataset Reference column (20/20 rows)
+    construction_date: to_confirm
+    dedup: to_confirm
+    overlap_check: to_confirm
+    evaluation_status: evaluated
+# <<< provenance metadata (managed by sync_task_metadata.py) <<<

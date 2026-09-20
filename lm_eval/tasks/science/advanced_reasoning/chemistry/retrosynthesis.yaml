@@ -9,3 +9,20 @@ doc_to_text: >
   D: {{Option_D}}
   Answer:
 task: science_chem_retrosynthesis
+
+# >>> provenance metadata (managed by sync_task_metadata.py) >>>
+metadata:
+  version: '0.1'
+  provenance:
+    source_type: mixed
+    source: Benchmark-style sources (GPQA) plus template-based sampling from USPTO using known
+      reaction templates (USPTO_TPL).
+    source_refs:
+    - GPQA
+    - USPTO_TPL
+    basis: SI chemistry curation; dataset Reference column (12/48 rows list GPQA)
+    construction_date: to_confirm
+    dedup: to_confirm
+    overlap_check: to_confirm
+    evaluation_status: evaluated
+# <<< provenance metadata (managed by sync_task_metadata.py) <<<

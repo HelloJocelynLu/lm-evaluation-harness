@@ -9,3 +9,18 @@ doc_to_text: >
   D: {{Option_D}}
   Answer:
 task: science_chem_reaction_mechanism
+
+# >>> provenance metadata (managed by sync_task_metadata.py) >>>
+metadata:
+  version: '0.1'
+  provenance:
+    source_type: expert_authored
+    source: Manually curated by domain experts from real experimental procedures or literature;
+      no structured public source.
+    source_refs: []
+    basis: SI chemistry curation (grouped paragraph for expert-authored tasks)
+    construction_date: to_confirm
+    dedup: to_confirm
+    overlap_check: to_confirm
+    evaluation_status: evaluated
+# <<< provenance metadata (managed by sync_task_metadata.py) <<<

@@ -1,4 +1,6 @@
 dataset_path: deep-principle/science_materials
+dataset_kwargs:
+  revision: af1c11c8dc0ebbd4b10323a4916e910f1f48a00c
 dataset_name: pxrd-lattice-prediction
 test_split: test
 
@@ -51,3 +53,21 @@ metric_list:
   - metric: mae
     aggregation: mean
     higher_is_better: false
+
+# >>> provenance metadata (managed by sync_task_metadata.py) >>>
+metadata:
+  version: '0.1'
+  provenance:
+    source_type: public_database
+    source: Ionic compounds from the Materials Project and MOFs from CoRE-2019; ground-truth
+      lattice parameters extracted from the source CIFs.
+    source_refs:
+    - Materials Project
+    - CoRE-2019
+    - Pymatgen
+    basis: SI materials curation (lattice prediction from PXRD)
+    construction_date: to_confirm
+    dedup: to_confirm
+    overlap_check: to_confirm
+    evaluation_status: evaluated
+# <<< provenance metadata (managed by sync_task_metadata.py) <<<

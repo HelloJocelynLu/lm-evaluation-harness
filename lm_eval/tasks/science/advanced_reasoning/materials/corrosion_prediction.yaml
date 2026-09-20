@@ -1,4 +1,6 @@
 dataset_path: deep-principle/science_materials
+dataset_kwargs:
+  revision: af1c11c8dc0ebbd4b10323a4916e910f1f48a00c
 dataset_name: corrosion-prediction
 test_split: test
 
@@ -26,3 +28,20 @@ metric_list:
     higher_is_better: true
 
 task: corrosion_prediction
+
+# >>> provenance metadata (managed by sync_task_metadata.py) >>>
+metadata:
+  version: '0.1'
+  provenance:
+    source_type: public_database
+    source: Constructed from the corrosion-survey database published by NACE International;
+      experimentally reported corrosion outcomes of organic solvents against metals, labelled
+      per documented observation.
+    source_refs:
+    - NACE International corrosion-survey database
+    basis: SI materials curation (corrosion prediction)
+    construction_date: to_confirm
+    dedup: to_confirm
+    overlap_check: to_confirm
+    evaluation_status: evaluated
+# <<< provenance metadata (managed by sync_task_metadata.py) <<<

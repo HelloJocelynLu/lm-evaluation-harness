@@ -1,4 +1,6 @@
 dataset_path: deep-principle/science_materials
+dataset_kwargs:
+  revision: af1c11c8dc0ebbd4b10323a4916e910f1f48a00c
 dataset_name: composites-qa
 test_split: test
 
@@ -42,3 +44,18 @@ metric_list:
     higher_is_better: true
     ignore_case: true
     ignore_punctuation: true
+
+# >>> provenance metadata (managed by sync_task_metadata.py) >>>
+metadata:
+  version: '0.1'
+  provenance:
+    source_type: expert_authored
+    source: Compiled from fundamental mechanics theory and domain knowledge. Only 1/22 rows
+      carry a source URL in the released data.
+    source_refs: []
+    basis: SI materials curation (composite materials Q&A); dataset Source column (partial)
+    construction_date: to_confirm
+    dedup: to_confirm
+    overlap_check: to_confirm
+    evaluation_status: evaluated
+# <<< provenance metadata (managed by sync_task_metadata.py) <<<

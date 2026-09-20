@@ -11,3 +11,18 @@ doc_to_text: >
   D: {{Option_D}}
   Answer:
 task: multiple_choice_core_knowledge
+
+# >>> provenance metadata (managed by sync_task_metadata.py) >>>
+metadata:
+  version: '0.1'
+  provenance:
+    source_type: expert_authored
+    source: Manually curated foundational operator algebra and elementary physical principles.
+    source_refs: []
+    basis: SI physics curation; dataset Reference column holds contributor names only
+    construction_date: to_confirm
+    dedup: to_confirm
+    overlap_check: to_confirm
+    evaluation_status: evaluated
+    note: n=7, below the minimum scenario size.
+# <<< provenance metadata (managed by sync_task_metadata.py) <<<

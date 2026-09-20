@@ -1,4 +1,6 @@
 dataset_path: deep-principle/science-chemistry
+dataset_kwargs:
+  revision: c4cd509e1d1fe29bb56a474f5bbd2a62d5b67366
 dataset_name: NMR_structure_elucidation
 test_split: test
 
@@ -33,3 +35,18 @@ metric_list:
   - metric: acc
     aggregation: mean
     higher_is_better: true
+
+# >>> provenance metadata (managed by sync_task_metadata.py) >>>
+metadata:
+  version: '0.1'
+  provenance:
+    source_type: published_literature
+    source: Manually curated from real experimental scenarios and published supplementary
+      information; reference structures given as SMILES.
+    source_refs: []
+    basis: SI chemistry curation (NMR structure elucidation)
+    construction_date: to_confirm
+    dedup: to_confirm
+    overlap_check: to_confirm
+    evaluation_status: evaluated
+# <<< provenance metadata (managed by sync_task_metadata.py) <<<

@@ -1,4 +1,6 @@
 dataset_path: deep-principle/science_physics
+dataset_kwargs:
+  revision: 5f5f92db129a26aa1d1c94608f88eb7ed9922539
 dataset_name: multiple_choice
 test_split: test  # Dataset has 75 rows, 72 with valid Task, 3 missing Task
 
