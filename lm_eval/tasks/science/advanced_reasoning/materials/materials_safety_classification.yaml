@@ -42,9 +42,7 @@ metadata:
       and flammability (n=60).
     source_refs:
     - PubChem
-    basis: SI materials curation (materials safety prediction)
-    construction_date: to_confirm
-    dedup: to_confirm
-    overlap_check: to_confirm
+    construction_date: '2025-07-01'
+    overlap_check: Public database (PubChem)
     evaluation_status: evaluated
 # <<< provenance metadata (managed by sync_task_metadata.py) <<<

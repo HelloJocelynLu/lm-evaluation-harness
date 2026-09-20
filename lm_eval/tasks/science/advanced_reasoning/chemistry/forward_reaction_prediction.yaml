@@ -20,9 +20,8 @@ metadata:
     source_refs:
     - GPQA
     - USPTO
-    basis: SI chemistry curation; dataset Reference column (27/42 rows list GPQA)
-    construction_date: to_confirm
-    dedup: to_confirm
-    overlap_check: to_confirm
+    construction_date: '2025-07-19'
+    overlap_check: Partially overlapped with GPQA and public database (USPTO), some novel
+      entries from domain expert knowledge without overlaps
     evaluation_status: evaluated
 # <<< provenance metadata (managed by sync_task_metadata.py) <<<

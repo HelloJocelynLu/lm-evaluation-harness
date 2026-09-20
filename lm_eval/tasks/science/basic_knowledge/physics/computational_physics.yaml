@@ -19,9 +19,8 @@ metadata:
     source_type: expert_authored
     source: Manually curated questions on numerical methods and algorithmic error analysis.
     source_refs: []
-    basis: SI physics curation; dataset Reference column holds contributor names only
-    construction_date: to_confirm
-    dedup: to_confirm
-    overlap_check: to_confirm
+    construction_date: '2025-09-09'
+    overlap_check: Manually curated by domain experts, no overlap with existing benchmark
+      and datasets, but may partially overlapped with textbooks knowledge
     evaluation_status: evaluated
 # <<< provenance metadata (managed by sync_task_metadata.py) <<<

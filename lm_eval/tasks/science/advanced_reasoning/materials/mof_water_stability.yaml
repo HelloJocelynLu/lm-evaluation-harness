@@ -49,9 +49,7 @@ metadata:
       database; per-item DOI in the dataset Reference column.
     source_refs:
     - MOF-ChemUnity
-    basis: SI materials curation; dataset Reference column (per-item DOIs)
-    construction_date: to_confirm
-    dedup: to_confirm
-    overlap_check: to_confirm
+    construction_date: '2025-07-01'
+    overlap_check: Public database (MOF-ChemUnity)
     evaluation_status: evaluated
 # <<< provenance metadata (managed by sync_task_metadata.py) <<<

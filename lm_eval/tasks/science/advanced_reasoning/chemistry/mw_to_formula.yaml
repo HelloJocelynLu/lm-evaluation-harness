@@ -40,9 +40,7 @@ metadata:
     source: Manually curated by domain experts; the studied compound for each item is recorded
       in the dataset Reference column.
     source_refs: []
-    basis: SI chemistry curation; dataset Reference column (holds compound names)
-    construction_date: to_confirm
-    dedup: to_confirm
-    overlap_check: to_confirm
+    construction_date: '2025-08-14'
+    overlap_check: Compounds from public database (pubchem), calculated with RDKit
     evaluation_status: evaluated
 # <<< provenance metadata (managed by sync_task_metadata.py) <<<

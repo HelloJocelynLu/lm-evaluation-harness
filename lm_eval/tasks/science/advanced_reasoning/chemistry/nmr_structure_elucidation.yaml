@@ -44,9 +44,7 @@ metadata:
     source: Manually curated from real experimental scenarios and published supplementary
       information; reference structures given as SMILES.
     source_refs: []
-    basis: SI chemistry curation (NMR structure elucidation)
-    construction_date: to_confirm
-    dedup: to_confirm
-    overlap_check: to_confirm
+    construction_date: '2025-07-14'
+    overlap_check: Curated from literature, no structured public source.
     evaluation_status: evaluated
 # <<< provenance metadata (managed by sync_task_metadata.py) <<<

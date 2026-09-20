@@ -60,9 +60,8 @@ metadata:
     source: Manually authored by a domain expert; atomistic simulation workflows in LAMMPS
       and VASP; no structured public source.
     source_refs: []
-    basis: SI materials curation (LAMMPS and VASP Q&A)
-    construction_date: to_confirm
-    dedup: to_confirm
-    overlap_check: to_confirm
+    construction_date: '2025-07-01'
+    overlap_check: Atomistic simulation workflows in LAMMPS and VASP; no structured public
+      source.
     evaluation_status: evaluated
 # <<< provenance metadata (managed by sync_task_metadata.py) <<<

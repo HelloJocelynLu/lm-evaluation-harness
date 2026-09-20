@@ -52,9 +52,8 @@ metadata:
     source: Manually authored by a domain expert; liquid electrolytes for lithium metal batteries;
       distractor options reflect common misconceptions.
     source_refs: []
-    basis: SI materials curation (battery electrolyte Q&A)
-    construction_date: to_confirm
-    dedup: to_confirm
-    overlap_check: to_confirm
+    construction_date: '2025-07-01'
+    overlap_check: Manually curated by domain experts, no overlap with existing benchmark
+      and datasets
     evaluation_status: evaluated
 # <<< provenance metadata (managed by sync_task_metadata.py) <<<
