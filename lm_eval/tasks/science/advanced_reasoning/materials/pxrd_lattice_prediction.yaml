@@ -13,7 +13,7 @@ filter_list:
       - function: "regex"
         regex_pattern: "<answer>(.*?)</answer>"
         group_select: 0
-doc_to_text: >
+doc_to_text: >-
   You are an expert in crystallography and materials informatics.
 
   Given the PXRD peak positions of a {{comment}}, the crystal system, and associated Miller indices,

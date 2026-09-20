@@ -3,7 +3,7 @@ dataset_kwargs:
   revision: c4cd509e1d1fe29bb56a474f5bbd2a62d5b67366
 dataset_name: mw2formula
 test_split: test
-doc_to_text: >
+doc_to_text: >-
   You are an expert Chemist. {{Question}}
   Please wrap the final answer in XML tags: <answer>X</answer> (where X is Chemical formula like C2H6O)
   Answer:

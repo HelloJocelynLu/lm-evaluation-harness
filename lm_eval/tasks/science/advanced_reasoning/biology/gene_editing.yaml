@@ -1,6 +1,6 @@
 include: _default_biology_yaml
 dataset_name: gene-editing
-doc_to_text: >
+doc_to_text: >-
   You are an expert in CRISPR gene editing technologies. Your task is to select the most appropriate answer from the given multiple choice options based on the user's question.
 
   Given Information:

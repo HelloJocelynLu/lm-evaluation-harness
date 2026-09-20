@@ -6,7 +6,7 @@ test_split: test
 
 process_docs: !function utils.process_biomaterials_qa
 
-doc_to_text: >
+doc_to_text: >-
   You are an expert in biomaterials engineering. Select the correct answer from the choices below.
 
   Wrap your final answer in <answer> tags, do not include any additional text or explanations in your response.

@@ -164,7 +164,9 @@ class BaseTasks:
             )
             for doc in arr
         ]
-        assert len(requests) == limit if limit else True
+        # Some datasets hold fewer documents than `limit`, so compare against
+        # the number of documents actually selected rather than against limit.
+        assert len(requests) == len(arr)
 
 
 @pytest.mark.parametrize(

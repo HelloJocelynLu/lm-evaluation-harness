@@ -1,6 +1,6 @@
 include: _default_biology_yaml
 dataset_name: matched-molecular-pair
-doc_to_text: >
+doc_to_text: >-
   You are an expert biochemist specializing in molecular property prediction. Your task is to compare the property values of two molecules based on their SMILES structures.
 
   Given Information:

@@ -6,7 +6,7 @@ test_split: test
 
 process_docs: !function utils.process_composites_qa
 
-doc_to_text: >
+doc_to_text: >-
   You are an expert in composite materials. Select the best answer for the following multiple choice question.
 
   Wrap your final answer in <answer> tags and return only that, e.g. <answer>A</answer>. Do not include any other text.

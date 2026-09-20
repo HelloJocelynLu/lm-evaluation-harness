@@ -1,6 +1,6 @@
 include: _default_biology_yaml
 dataset_name: protein-localization
-doc_to_text: >
+doc_to_text: >-
   You are an expert molecular biologist specializing in protein localization prediction. Your task is to analyze a protein's amino acid sequence and determine its most likely subcellular localization.
 
   Given Information:

@@ -1,7 +1,7 @@
 include: "_default_exact_match_yaml"
 # Task: Astrophysics/Cosmology exact match questions
 process_docs: !function utils.process_astrophysics_cosmology
-doc_to_text: >
+doc_to_text: >-
   You are an expert in Astrophysics and Cosmology. Please solve the following question step by step.
 
   Question: {{Question.strip()}}

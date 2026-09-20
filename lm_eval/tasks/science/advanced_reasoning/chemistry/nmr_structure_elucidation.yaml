@@ -4,7 +4,7 @@ dataset_kwargs:
 dataset_name: NMR_structure_elucidation
 test_split: test
 
-doc_to_text: >
+doc_to_text: >-
   You are a chemist assistant with expertise in molecular structure elucidation. {{Question}}
   Requirements:
     - Provide the structure in SMILES notation

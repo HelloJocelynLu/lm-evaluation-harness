@@ -5,7 +5,7 @@ dataset_name: battery-electrolyte-qa
 test_split: test
 
 process_docs: !function utils.process_battery_electrolyte_qa
-doc_to_text: >
+doc_to_text: >-
   You are an expert in battery electrolyte chemistry. Use your expert knowledge to answer the multiple choice question below.
 
   Wrap your final answer(s) in <answer>X</answer> tags, where X can be a single letter or comma-separated list of letters.

@@ -6,7 +6,7 @@ test_split: test
 
 process_docs: !function utils.process_safety_prediction
 
-doc_to_text: >
+doc_to_text: >-
   You are an expert chemist with a strong knowledge in materials safety data.
   Your task is to determine if a given compound is a {{comment}}, and therefore hazardous, based on its SMILES representation.
 

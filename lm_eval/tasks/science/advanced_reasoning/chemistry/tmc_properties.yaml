@@ -3,7 +3,7 @@ dataset_kwargs:
   revision: c4cd509e1d1fe29bb56a474f5bbd2a62d5b67366
 dataset_name: TMC_properties
 test_split: test
-doc_to_text: >
+doc_to_text: >-
   {{Question}}
   Please wrap the final answer in XML tags: <answer>X</answer> (where X is [ox]/[spin])
   Answer:

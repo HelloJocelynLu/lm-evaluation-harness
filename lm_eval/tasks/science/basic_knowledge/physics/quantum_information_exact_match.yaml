@@ -1,7 +1,7 @@
 include: "_default_exact_match_yaml"
 # Uses specific task filtering: 8 EM + 25 MC samples
 process_docs: !function utils.process_quantum_information
-doc_to_text: >
+doc_to_text: >-
   You are an expert in Quantum Information Theory. Please solve the following question step by step.
 
   Question: {{Question.strip()}}

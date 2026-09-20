@@ -1,6 +1,6 @@
 include: _default_biology_yaml
 dataset_name: property-based-matching
-doc_to_text: >
+doc_to_text: >-
   You are an expert biochemist specializing in molecular property prediction. Your task is to identify which molecule from the given options has a property value closest to the target molecule's property value.
 
   Given Information:

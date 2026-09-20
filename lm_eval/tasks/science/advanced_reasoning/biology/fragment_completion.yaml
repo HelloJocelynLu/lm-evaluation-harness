@@ -1,6 +1,6 @@
 include: _default_biology_yaml
 dataset_name: fragment-completion
-doc_to_text: >
+doc_to_text: >-
   You are an expert biochemist specializing in molecular fragment analysis and property prediction. Your task is to identify which complete molecule from the given options best matches the masked fragment and target property value.
 
   Given Information:

@@ -1,6 +1,6 @@
 include: _default_biology_yaml
 dataset_name: gwas-causal-gene
-doc_to_text: >
+doc_to_text: >-
   You are an expert in genetics and GWAS analysis. Your task is to identify the most likely causal gene within a genomic locus for a given GWAS phenotype.
   Given Information:
 

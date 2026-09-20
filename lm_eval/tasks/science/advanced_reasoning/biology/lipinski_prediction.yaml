@@ -1,6 +1,6 @@
 include: _default_biology_yaml
 dataset_name: lipinski-prediction
-doc_to_text: >
+doc_to_text: >-
   You are an expert biochemist specializing in drug-like property analysis. Your task is to analyze a molecule's SMILES representation and determine whether it satisfies Lipinski's Rule of Five.
 
   Given Information:

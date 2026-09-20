@@ -7,7 +7,7 @@ test_split: test
 process_docs: !function utils.process_pxrd_crystal_system
 process_results: !function utils.normalize_prediction
 
-doc_to_text: >
+doc_to_text: >-
   You are an expert crystallographer. Your task is to classify the crystal system of the following material based on its PXRD data.
 
   Material type: {{material_type}}

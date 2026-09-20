@@ -5,7 +5,7 @@ dataset_name: mof-synthesis-qa
 test_split: test
 
 process_docs: !function utils.process_mof_synthesis_qa
-doc_to_text: >
+doc_to_text: >-
   You are an expert in MOF synthesis. Select the correct answer from the choices below.
 
   Wrap your final answer in <answer> tags, do not include any additional text or explanations in your response.
