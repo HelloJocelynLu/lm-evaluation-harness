@@ -37,14 +37,15 @@ metadata:
   provenance:
     source_type: expert_authored
     source: Manually curated by domain experts from experimental constraints reported in the
-      CRISPR literature. The released Task label is "CRISPR-GPT gene-editing bench", which
-      is not referenced in the SI.
+      CRISPR literature.
     source_refs: []
-    basis: SI biology curation (CRISPR delivery strategy selection)
-    construction_date: to_confirm
-    dedup: to_confirm
-    overlap_check: to_confirm
+    basis: curation notes
+    construction_date: 2025-07-22
+    dedup: 'Exact-match check on scenario text plus option set: 20 of 20 unique. One near-duplicate
+      pair (rows 6-7, "BMDC cells" vs "mouse BMDC cells") was retained as genuinely distinct
+      scenarios.'
+    overlap_check: 'Exact and near-match (Jaccard >= 0.8) check against the other SDE biology
+      scenarios, including gene editing: no overlap found. Not yet checked against external
+      question-answering corpora.'
     evaluation_status: evaluated
-    note: 'Mismatch to resolve: the released Task label names an external benchmark (CRISPR-GPT)
-      that the SI does not cite. Either attribute it or rename the label.'
 # <<< provenance metadata (managed by sync_task_metadata.py) <<<
