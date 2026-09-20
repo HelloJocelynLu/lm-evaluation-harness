@@ -1,9 +1,9 @@
 group: science_physics
-# D11 minimum scenario size: scenarios with fewer than 10 validated questions
-# are excluded from reported results.
+# Minimum scenario size: scenarios with fewer than 10 validated questions are
+# excluded from reported results. The task definition is kept so it remains
+# runnable and auditable; only this aggregate excludes it.
 #
-# Excluded here: core physics knowledge (n=7). The task definition is kept so it
-# remains runnable and auditable; only the aggregate excludes it.
+# Excluded here: core physics knowledge (n=7).
 task:
   # Exact Match Tasks
   - exact_match_astrophysics_cosmology
