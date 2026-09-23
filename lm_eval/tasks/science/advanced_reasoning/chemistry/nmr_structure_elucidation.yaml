@@ -40,11 +40,16 @@ metric_list:
 metadata:
   version: '0.1'
   provenance:
-    source_type: published_literature
-    source: Manually curated from real experimental scenarios and published supplementary
-      information; reference structures given as SMILES.
-    source_refs: []
+    source_type: public_database
+    source: Molecular structures selected from USPTO, with 1H and 13C NMR spectra predicted
+      using NMRDB (nmrdb.org) and converted into question-answer pairs; the spectra are simulated
+      rather than experimental, and reference structures are given as SMILES.
+    source_refs:
+    - USPTO
+    - NMRDB
     construction_date: '2025-07-14'
-    overlap_check: Curated from literature, no structured public source.
+    overlap_check: Structures drawn from a public database (USPTO) with spectra predicted
+      by NMRDB; no experimental spectra are used, so there is no spectroscopic dataset to
+      overlap with.
     evaluation_status: evaluated
 # <<< provenance metadata (managed by sync_task_metadata.py) <<<
